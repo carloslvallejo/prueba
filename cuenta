@@ -10,7 +10,6 @@
     <title>Crear cuenta</title>
     <script>
         function validar() {
-            var n = document.forms["registro"]["usuario"].value;
             var c = document.forms["registro"]["clave"].value;
             var cc = document.forms["registro"]["rclave"].value;
             if(c!=cc) {
