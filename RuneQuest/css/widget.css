@@ -1,0 +1,46 @@
+.widget {
+    width: 900px;
+    height: 350px;
+    background:white;
+    margin: 130px 180px;
+}
+.wids {
+    display: inline-block;
+    width: 296px;
+    height: 350px;
+    text-align: center;
+}
+.wids:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px black;
+}
+.wid-blue {
+    width: 80px;
+    height: 80px;
+    margin-top:30px;
+    margin-left:50px;
+    padding: 40px;
+    border: solid 15px blue;
+    border-radius: 50%;
+    display: flex;
+}
+.wid-red {
+    width: 80px;
+    height: 80px;
+    margin-top:30px;
+    margin-left:50px;
+    padding: 40px;
+    border: solid 15px red;
+    border-radius: 50%;
+    display: flex;
+}
+.wid-green {
+    width: 80px;
+    height: 80px;
+    margin-top:30px;
+    margin-left:50px;
+    padding: 40px;
+    border: solid 15px green;
+    border-radius: 50%;
+    display: flex;
+}

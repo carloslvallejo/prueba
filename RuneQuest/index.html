@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>RuneQuest</title>
+  <style>
+    .widget{
+      background: url('images/icon.jpg');
+      background-size: cover;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    .widget:hover {
+      cursor: pointer;
+    }
+    .border-red {
+      border:red solid 15px;
+    }
+    .border-blue {
+      border: blue solid 15px;
+    }
+    .border-green {
+      border:green solid 15px;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".wid1").hover(function() {
+        $("#wid-1").css("border", "rgb(55,100,253) solid 15px");
+        $(".text-wid1").css("text-decoration", "underline blue");
+      }, function() {
+        $("#wid-1").css("border", "blue solid 15px");
+        $(".text-wid1").css("text-decoration", "none");
+      });
+      $(".wid2").hover(function() {
+        $("#wid-2").css("border", "rgb(226,53,82) solid 15px");
+        $(".text-wid2").css("text-decoration", "underline red");
+      }, function() {
+        $("#wid-2").css("border", "red solid 15px");
+        $(".text-wid2").css("text-decoration", "none");
+      });
+      $(".wid3").hover(function() {
+        $("#wid-3").css("border", "rgb(79,163,84) solid 15px");
+        $(".text-wid3").css("text-decoration", "underline green");
+      }, function() {
+        $("#wid-3").css("border", "green solid 15px");
+        $(".text-wid3").css("text-decoration", "none");
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="slides">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/sample-1.jpg" class="d-block w-100" alt="..." width="1100" height="300">
+        </div>
+        <div class="carousel-item">
+          <img src="images/sample-2.jpg" class="d-block w-100" alt="..." width="1100" height="300">
+        </div>
+        <div class="carousel-item">
+          <img src="images/sample-3.jpg" class="d-block w-100" alt="..." width="1100" height="300">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/Logo.jpg" alt="logo" width="30" height="30" class="d-inline-block align-top"> RuneQuest
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skill's</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">MoneyMaking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quest</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container-fluid bg-secondary pt-2 pb-3">
+    <h2>Bienvenidos RuneQuest</h2>
+    <span>Esta pagina esta dedicada a brindar ayudar a los jugadores latinos de old school runescape</span>
+    <h1>Ultimas noticias</h1>
+    <div class="container pb-2">
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/deadman.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Deadman Mode</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/wintertodt.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Guia Wintertodt</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/rc99.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Guia runecrafting 99</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5 d-flex justify-content-center rounded">
+      <div class="row">
+          <div class="col-md-4 rounded wid1">
+            <div class="widget border-blue" id="wid-1">
+            </div>
+            <h5 class="text-wid1 ml-4">Titulo</h5>
+            <span>Breve descripcion del widget</span>
+          </div>
+          <div class="col-md-4 rounded wid2">
+            <div class="widget border-red" id="wid-2">
+            </div>
+            <h5 class="text-wid2 ml-4">Titulo</h5>
+            <span>Breve descripcion del widget</span>
+          </div>
+          <div class="col-md-4 rounded wid3">
+            <div class="widget border-green" id="wid-3">
+            </div>
+            <h5 class="text-wid3 ml-4">Titulo</h5>
+            <span>Breve description del widget</span>
+          </div>
+      </div>
+    </div>
+  </div>
+  <footer class="fixed-bottom bg-dark text-white">
+    <div class="container pt-2">
+     <p>Redes Sociales: 
+       <a href="#">facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Youtube</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

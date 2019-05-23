@@ -1,0 +1,10 @@
+//-----------patron de colores-----------//
+$texto:black;
+$principal:#42a5f5;
+$secundario:#b0bec5;
+$extra:#5d4037;
+
+.navbar {
+    background:$principal;
+    color:$texto;
+}
