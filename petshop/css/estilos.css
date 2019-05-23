@@ -1,0 +1,16 @@
+.form-control {
+  width: 34px; }
+
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type="number"] {
+  -moz-appearance: textfield; }
+
+.btn-primary:active {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important; }
+
+/*# sourceMappingURL=estilos.css.map */
